@@ -7,7 +7,7 @@
 3. Run `npm run dev`.
 4. Open [http://localhost:3000](http://localhost:3000) to view it on the browser.
 
-## Dependecies
+## Dev dependecies
 
 - eslint
 - eslint-config-airbnb
@@ -17,7 +17,7 @@
 - eslint-plugin-prettier
 - prettier
 
-## Dev dependencies
+## Dependencies
 
 - express
 - express-handlebars
