@@ -1,0 +1,38 @@
+<div class="container mt-5">
+  <h2 class="title">Add a message</h2>
+  
+  <form method="POST" action="/new">
+    <article class="media">
+      <div class="media-content">
+
+        <div class="field">
+          <div class="field-body">
+            <div class="field">
+              <p class="control">
+                <input class="input" name="author" type="text" placeholder="Author" required>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <p class="control">
+            <textarea class="textarea" name="message" placeholder="Add a your message..." required></textarea>
+          </p>
+        </div>
+
+        <nav class="level">
+          <div class="level-left">
+            <div class="level-item">
+              <button class="button is-info">Submit</button>
+            </div>
+            <div class="level-item">
+              <a href="/" class="button">Go back</a>
+            </div>            
+          </div>
+        </nav>
+
+      </div>
+    </article>
+  </form>
+</div>
